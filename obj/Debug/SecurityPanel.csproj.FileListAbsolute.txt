@@ -1,0 +1,10 @@
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\bin\Debug\SecurityPanel.exe.config
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\bin\Debug\SecurityPanel.exe
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\bin\Debug\SecurityPanel.pdb
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.csprojAssemblyReference.cache
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.Form1.resources
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.Properties.Resources.resources
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.csproj.GenerateResource.cache
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.csproj.CoreCompileInputs.cache
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.exe
+D:\Download\Study\HOC\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\obj\Debug\SecurityPanel.pdb
