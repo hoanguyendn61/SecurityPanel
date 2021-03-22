@@ -16,7 +16,9 @@ namespace SecurityPanel
         {
             InitializeComponent();
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader(@"D:\Download\Study\hoc\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\bin\Debug\accesslog.txt");
+            // System.IO.StreamReader file = new System.IO.StreamReader(@"D:\Download\Study\hoc\YEAR 2\HOCKY II\dotNet\WinForm\SecurityPanel\bin\Debug\accesslog.txt");
+            string filePath = System.IO.Path.GetFullPath("accesslog.txt");
+            System.IO.StreamReader file = new System.IO.StreamReader(filePath);
             while ((line = file.ReadLine()) != null)
             {
                 lbAccessLog.Items.Add(line);
