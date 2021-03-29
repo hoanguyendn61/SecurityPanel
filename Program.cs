@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SecurityPanel
+namespace BT01_102190014_NguyenHuyHoa
 {
     static class Program
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace SecurityPanel
+namespace BT01_102190014_NguyenHuyHoa
 {
     partial class Form1
     {
@@ -51,7 +51,7 @@ namespace SecurityPanel
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(17, 28);
+            this.label1.Location = new System.Drawing.Point(33, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(131, 25);
             this.label1.TabIndex = 0;
@@ -60,12 +60,12 @@ namespace SecurityPanel
             // txtCode
             // 
             this.txtCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCode.Location = new System.Drawing.Point(154, 25);
+            this.txtCode.Location = new System.Drawing.Point(170, 18);
             this.txtCode.MaxLength = 4;
             this.txtCode.Name = "txtCode";
             this.txtCode.PasswordChar = '●';
             this.txtCode.ReadOnly = true;
-            this.txtCode.Size = new System.Drawing.Size(195, 30);
+            this.txtCode.Size = new System.Drawing.Size(214, 30);
             this.txtCode.TabIndex = 1;
             this.txtCode.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -74,16 +74,16 @@ namespace SecurityPanel
             this.lbAccessLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbAccessLog.FormattingEnabled = true;
             this.lbAccessLog.ItemHeight = 25;
-            this.lbAccessLog.Location = new System.Drawing.Point(22, 309);
+            this.lbAccessLog.Location = new System.Drawing.Point(12, 272);
             this.lbAccessLog.Name = "lbAccessLog";
-            this.lbAccessLog.Size = new System.Drawing.Size(372, 154);
+            this.lbAccessLog.Size = new System.Drawing.Size(394, 154);
             this.lbAccessLog.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(17, 281);
+            this.label2.Location = new System.Drawing.Point(17, 244);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 25);
             this.label2.TabIndex = 3;
@@ -92,7 +92,7 @@ namespace SecurityPanel
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(84, 93);
+            this.button1.Location = new System.Drawing.Point(101, 68);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(44, 43);
             this.button1.TabIndex = 4;
@@ -103,7 +103,7 @@ namespace SecurityPanel
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(143, 93);
+            this.button2.Location = new System.Drawing.Point(160, 68);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(44, 43);
             this.button2.TabIndex = 5;
@@ -114,7 +114,7 @@ namespace SecurityPanel
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(202, 93);
+            this.button3.Location = new System.Drawing.Point(219, 68);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(44, 43);
             this.button3.TabIndex = 6;
@@ -125,7 +125,7 @@ namespace SecurityPanel
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(84, 154);
+            this.button4.Location = new System.Drawing.Point(101, 129);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(44, 43);
             this.button4.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace SecurityPanel
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(143, 154);
+            this.button5.Location = new System.Drawing.Point(160, 129);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(44, 43);
             this.button5.TabIndex = 8;
@@ -147,7 +147,7 @@ namespace SecurityPanel
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(202, 154);
+            this.button6.Location = new System.Drawing.Point(219, 129);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(44, 43);
             this.button6.TabIndex = 9;
@@ -158,7 +158,7 @@ namespace SecurityPanel
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(84, 217);
+            this.button7.Location = new System.Drawing.Point(101, 192);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(44, 43);
             this.button7.TabIndex = 10;
@@ -169,7 +169,7 @@ namespace SecurityPanel
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.Location = new System.Drawing.Point(143, 217);
+            this.button8.Location = new System.Drawing.Point(160, 192);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(44, 43);
             this.button8.TabIndex = 11;
@@ -180,7 +180,7 @@ namespace SecurityPanel
             // button9
             // 
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.Location = new System.Drawing.Point(202, 217);
+            this.button9.Location = new System.Drawing.Point(219, 192);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(44, 43);
             this.button9.TabIndex = 12;
@@ -191,7 +191,7 @@ namespace SecurityPanel
             // button0
             // 
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button0.Location = new System.Drawing.Point(262, 217);
+            this.button0.Location = new System.Drawing.Point(279, 192);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(44, 43);
             this.button0.TabIndex = 13;
@@ -201,9 +201,9 @@ namespace SecurityPanel
             // 
             // btnEnter
             // 
-            this.btnEnter.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnEnter.BackColor = System.Drawing.Color.Purple;
             this.btnEnter.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnter.Location = new System.Drawing.Point(262, 154);
+            this.btnEnter.Location = new System.Drawing.Point(279, 129);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(44, 43);
             this.btnEnter.TabIndex = 14;
@@ -213,9 +213,9 @@ namespace SecurityPanel
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnClear.BackColor = System.Drawing.Color.Gold;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(262, 93);
+            this.btnClear.Location = new System.Drawing.Point(279, 68);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(44, 43);
             this.btnClear.TabIndex = 15;
@@ -227,7 +227,7 @@ namespace SecurityPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(406, 484);
+            this.ClientSize = new System.Drawing.Size(418, 436);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnEnter);
             this.Controls.Add(this.button0);
