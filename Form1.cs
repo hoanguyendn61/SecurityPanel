@@ -34,10 +34,7 @@ namespace BT01_102190014_NguyenHuyHoa
         }
         private void btnClear_Click(object sender, EventArgs e)
         {
-            if(txtCode.Text.Length > 0)
-            {
-                txtCode.Text = txtCode.Text.Remove(txtCode.Text.Length - 1);
-            }
+            Clear();
         }
         private void key_Press(object sender, KeyPressEventArgs e)
         {
@@ -51,46 +48,51 @@ namespace BT01_102190014_NguyenHuyHoa
             }
             if (e.KeyChar == (char)13)
             {
-                btnEnter_Click(sender, e);
+                Enter(txtCode.Text);
+                txtCode.Text = "";
             }
             if (e.KeyChar == (char)8)
             {
-                btnClear_Click(sender, e); 
+                Clear();
+            }
+        }
+        private void Clear()
+        {
+            if (txtCode.Text.Length > 0)
+            {
+                txtCode.Text = txtCode.Text.Remove(txtCode.Text.Length - 1);
+            }
+        }
+        private void Enter(string txtCode)
+        {
+            string accesslog;
+            switch (txtCode)
+            {
+                case "2001":
+                    accesslog = DateTime.Now.ToString() + "     ACCESS GRANTED";
+                    lbAccessLog.Items.Add(accesslog);
+                    break;
+                case "3005":
+                    accesslog = DateTime.Now.ToString() + "     ACCESS GRANTED";
+                    lbAccessLog.Items.Add(accesslog);
+                    break;
+                case "2077":
+                    accesslog = DateTime.Now.ToString() + "     ACCESS GRANTED";
+                    lbAccessLog.Items.Add(accesslog);
+                    break;
+                case "3000":
+                    accesslog = DateTime.Now.ToString() + "     ACCESS GRANTED";
+                    lbAccessLog.Items.Add(accesslog);
+                    break;
+                default:
+                    accesslog = DateTime.Now.ToString() + "     ACCESS DENIED";
+                    lbAccessLog.Items.Add(accesslog);
+                    break;
             }
         }
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            string accesslog;
-            if (txtCode.Text.Length == 1)
-            {
-                accesslog = DateTime.Now.ToString() + "     Restricted Access";
-                lbAccessLog.Items.Add(accesslog);
-            } else
-            {
-                switch (txtCode.Text)
-                {
-                    case "2001":
-                        accesslog = DateTime.Now.ToString() + "     Access Granted!";
-                        lbAccessLog.Items.Add(accesslog);
-                        break;
-                    case "3005":
-                        accesslog = DateTime.Now.ToString() + "     Access Granted!";
-                        lbAccessLog.Items.Add(accesslog);
-                        break;
-                    case "2077":
-                        accesslog = DateTime.Now.ToString() + "     Access Granted!";
-                        lbAccessLog.Items.Add(accesslog);
-                        break;
-                    case "3000":
-                        accesslog = DateTime.Now.ToString() + "     Access Granted!";
-                        lbAccessLog.Items.Add(accesslog);
-                        break;
-                    default:
-                        accesslog = DateTime.Now.ToString() + "     Access Denied!";
-                        lbAccessLog.Items.Add(accesslog);
-                        break;
-                }
-            }
+            Enter(txtCode.Text);
             txtCode.Text = "";
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
